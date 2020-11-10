@@ -1,8 +1,9 @@
-
-#include <iostream>
+#include "server.hpp"
 
 using namespace std;
+using namespace cxxhttp;
 
 int main(int argc, char** argv) {
-    cout << "Hello world!" << endl;
+    Server s;
+    return 0;
 }
